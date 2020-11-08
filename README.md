@@ -1,5 +1,3 @@
-# Back-end_intership
-
 # Before to use
   1. You need install "opcua" library:
 
