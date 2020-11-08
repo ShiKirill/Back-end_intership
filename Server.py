@@ -13,8 +13,8 @@ if __name__ == "__main__":
     server.set_endpoint("opc.tcp://127.0.0.1:587")
     idx = server.register_namespace("http://examples.freeopcua.github.io")
 
-    server.load_certificate("certificate-example.der")
-    server.load_private_key("private-key-example.pem")
+    server.load_certificate("docs/certificate-example.der")
+    server.load_private_key("docs/private-key-example.pem")
 
     objects = server.get_objects_node()
 
