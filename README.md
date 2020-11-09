@@ -13,8 +13,8 @@
 
 # Launch
 1. Run server:
-`Server.py`
+`python Server.py`
 
 2. Run client:
-`Client.py`
+`python Client.py`
 
