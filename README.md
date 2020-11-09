@@ -18,3 +18,4 @@
 2. Run client:
 `python Client.py`
 
+3. Open Telegram and launch Test_intership_bot
