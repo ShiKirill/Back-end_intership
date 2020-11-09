@@ -19,7 +19,7 @@ def start_message(message):
             bot.send_message(message.chat.id, "###")
             for i in range(10):
                 values.append(client.get_node("ns=2;i=" + str(i + 2)).get_value())
-                if values[i] <= -3 or values[i] >= 7:
+                if values[i] <= -7 or values[i] >= 7:
                     bot.send_message(message.chat.id, 'Значение переменной №' + str(i+1) + " : " + str(values[i]) + ' лежит за пределами.')
     finally:
         client.disconnect()
